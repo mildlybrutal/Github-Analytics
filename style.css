@@ -1,0 +1,76 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    background-image: radial-gradient(circle, #111425, #150e1c, #130913, #0d0409, #000000);
+}
+.card{
+    background-color: #212121;
+    width: 350px;
+    height: 500px;
+    margin-top: 5em;
+    border-radius: 15%;
+    text-align: center;
+    padding:20px;
+}
+#dp{
+    background: url(./assets/1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 100px; 
+    margin-bottom: 10px;
+    background-color: #fff;
+    width:150px;
+    height:150px;
+    padding: 5px;;
+    border-radius: 50%;
+}
+#username{
+    color:#fffefc;
+    text-align: center;
+}
+.stats {
+    color:#fff;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-value {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.stat-label {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#username{
+    margin : 20px;
+}
+
+button{
+    display: inline-block;
+    padding: 10px 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #a6d8cb;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 50px;
+}
+button:hover{
+    background-color: #fffefc;
+}
