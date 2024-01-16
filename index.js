@@ -14,6 +14,13 @@ xhr.onreadystatechange=function(){
         followers.innerHTML = data.followers;
         following.innerHTML = data.following;
         repos.innerHTML= data.public_repos;
+        const imgElement = document.createElement('img');
+        imgElement.style.borderRadius  = '50%';
+        imgElement.style.width = '150px';
+        imgElement.setAttribute('src', data.avatar_url);
+        imgElement.setAttribute('alt', 'Avatar Image');
+        dp.appendChild(imgElement);
+        dp.addEventListener('click', redirectToGithub);
     }
 }
 xhr.send();
