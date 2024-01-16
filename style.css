@@ -16,7 +16,6 @@ body{
     padding:20px;
 }
 #dp{
-    background: url(./assets/1.jpg);
     background-size: cover;
     background-position: center;
     margin-left: 100px; 
